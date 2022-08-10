@@ -4,7 +4,7 @@ module.exports = app => {
   app.use(
     "/api",
     proxy({
-      target: process.env.REACT_APP_API_HOST || "http://localhost:8000",
+      target: process.env.REACT_APP_API_HOST || "https://node-with-plaid.herokuapp.com",
       changeOrigin: true
     })
   );
