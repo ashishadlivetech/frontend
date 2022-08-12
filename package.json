@@ -23,7 +23,7 @@
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
-  "proxy": "https://node-with-plaid.herokuapp.com",
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
