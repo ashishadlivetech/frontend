@@ -27,7 +27,7 @@ const Header = () => {
     access = element.getAttribute('data-access');
     item = element.getAttribute('data-item');
     }
-    window.location.href = process.env.REACT_APP_REDIRECT+"plaid-success/" + accessToken+'/'+itemId
+    window.location.href = process.env.REACT_APP_REDIRECT+"/plaid-success/" + accessToken+'/'+itemId
   }
 
   return (
